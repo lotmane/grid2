@@ -1,0 +1,37 @@
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20% 58% 20%;
+    grid-template-rows: 10% 75% 10%;
+    grid-template-areas: " header header header"
+    "section nav aside"
+    "footer footer footer" 
+ }
+ 
+ 
+ .header{
+     background-color: #1ABC9C;
+     grid-area: header;
+ }
+ 
+ .section{
+     background-color: #9B59B6;
+     grid-area: section;
+ 
+ }
+ 
+ .nav{
+     background-color: #3498DB;
+     grid-area: nav;
+ }
+ 
+ .aside{
+     background-color: #E67E22;
+     grid-area: aside;
+ 
+ }
+ 
+ .footer{
+     background-color: #E74C3C;
+     grid-area: footer;
+ }

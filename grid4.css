@@ -1,0 +1,14 @@
+@media (max-width:600px){
+    .grid{
+        display: grid;
+        height: 100vh;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-areas:
+        " header "
+        "nav"
+        "section"
+        "aside"
+        "footer" 
+     }
+}
